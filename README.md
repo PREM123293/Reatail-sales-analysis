@@ -6,15 +6,16 @@ Analyze store sales data to identify top-performing products, customer trends, a
 ---
 
 ## 🧰 Tools Used
-- **SQL (MySQL / PostgreSQL / SQLite)** – For data cleaning and aggregation  
-- **Power BI** – For building the interactive dashboard  
-- **Excel / CSV** – For initial data review  
+- **SQL (MySQL / PostgreSQL / SQLite)** – Data cleaning and aggregation  
+- **Power BI** – Interactive dashboard creation  
+- **Excel / CSV** – Initial data exploration  
 
 ---
 
 ## 📊 Dataset
-**File:** `data/premsql.csv`  
-This dataset contains retail order details, including:
+**File:** `data/premsql.csv`
+
+The dataset contains retail order details, including:
 - Order Date  
 - Product Name  
 - Category  
@@ -26,47 +27,39 @@ This dataset contains retail order details, including:
 ---
 
 ## 🧮 SQL Analysis
-Performed key aggregations:
-1. **Sales and Profit by Category**
-2. **Top 10 Products by Sales**
-3. **Monthly Sales Trends**
-4. **Regional Sales and Profit**
-5. **Profit Margin by Category**
+Key aggregations performed:
+- Sales and Profit by Category  
+- Top 10 Products by Sales  
+- Monthly Sales Trends  
+- Regional Sales and Profit  
+- Profit Margin by Category  
 
 ---
 
 ## 📈 Power BI Dashboard
-Visualizations created:
-- Sales by **Region**
-- Profit by **Category**
-- **Monthly Sales Trend** (Line Chart)
-- **Top 10 Products** (Bar Chart)
-- **Profit Margin Share** (Pie Chart)
+Visualizations included:
+- Sales by Region  
+- Profit by Category  
+- Monthly Sales Trend (Line Chart)  
+- Top 10 Products (Bar Chart)  
+- Profit Margin Share (Pie Chart)  
 
 ---
 
 ## 💡 Insights
-- **Office Supplies** category generated the highest overall profit.  
-- **West region** underperformed compared to other regions.  
-- **December** showed a sales peak, indicating a holiday season boost.  
+- Office Supplies category generated the highest overall profit  
+- West region underperformed compared to other regions  
+- December showed a sales peak due to the holiday season  
 
 ---
 
 ## 🧩 Outcome
-Developed strong understanding of:
-- SQL aggregation and joins  
-- Power BI data visualization  
+This project helped build strong understanding of:
+- SQL aggregation and analytical queries  
+- Power BI data visualization techniques  
 - Data storytelling and business insights  
 
 ---
 
 ## 📁 Project Structure
-```
-Retail-Sales-Analysis/
-├── data/premsql.csv
-├── queries/sales_queries.sql
-├── dashboard/sales_dashboard.pbix
-└── README.md
-```
 
----
